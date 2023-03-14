@@ -86,7 +86,7 @@ body {
   display: none;
 }
 
-/* Her0 Section */
+/* Hero Section */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -267,7 +267,7 @@ body {
   padding: 2rem;
   font-size: 1.7rem;
   background: none;
-  columns: #fff;
+  color: #fff;
 }
 
 .contact .row form .btn {
