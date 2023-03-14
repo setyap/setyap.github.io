@@ -294,13 +294,13 @@ footer .socials {
 }
 
 footer .socials a {
-  color: #fff;
+  color: var(--secondary);
   margin: 1rem;
 }
 
 footer .socials a:hover,
 footer .links a:hover {
-  color: var(--bg);
+  color: #fff;
 }
 
 footer .links {
@@ -308,12 +308,13 @@ footer .links {
 }
 
 footer .links a {
-  color: #fff;
+  color: var(--secondary);
   padding: 0.7rem 1rem;
 }
 
 footer .credit {
   font-size: 0.8rem;
+  color: var(--secondary);
 }
 
 footer .credit a {
