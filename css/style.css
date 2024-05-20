@@ -83,9 +83,12 @@ body {
   color: var(--primary);
 }
 
-#hamburger-menu {
+.navbar-extra {
   display: none;
 }
+/* #hamburger-menu {
+  display: none;
+} */
 
 /* Hero Section */
 .hero {
@@ -229,6 +232,7 @@ body {
 .menu .row .menu-card img {
   border-radius: 5%;
   width: 80%;
+  max-width: 300px;
 }
 
 .menu .row .menu-card .menu-card-title {
@@ -336,9 +340,12 @@ footer .credit a {
     font-size: 62.5%;
   }
 
-  #hamburger-menu {
+  .navbar-extra {
     display: inline-block;
   }
+  /* #hamburger-menu {
+    display: inline-block;
+  } */
 
   .navbar .navbar-nav {
     position: absolute;
